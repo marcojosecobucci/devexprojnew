@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+
+$primary-color: #18A6DE;
+$primary-text-c: #293E59;
+$secondary-text-c: #9B9B9B;
+$white-c: white ;
+$list-c: #484A54;
+$bg-azure: #80c7e585;
+
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Roboto Slab', serif;
+    overflow-y: hidden;
+}
+html{
+    overflow-y: scroll;
+}
+header{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 1000;
+    margin-bottom: 1rem;
+    background-color: $white-c;
+}
+main{
+    position: relative;
+    margin-top: 5rem;
+}
+
+@import "~bootstrap/scss/bootstrap";
+@import './components/navbar/Navbar.scss';
+@import './components/button/BtnAll.scss';
+@import './components/Carousel/MyCarousel.scss';
+@import './components/TextCasual/TextCasual.scss';
+@import './components/OurServices/Service.scss';
+@import './components/imgBg/ImgBg.scss';
+@import './components/BlogCardCarousel/CardBlog.scss';
+@import './components/Form/Form.scss';
+@import './components/Footer/Footer.scss';
+

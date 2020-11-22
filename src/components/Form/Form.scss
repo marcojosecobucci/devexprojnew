@@ -1,0 +1,23 @@
+.container-form {
+    background-image: url('../../img/scrivania.svg');
+    background-position: center;
+    margin:0 3rem;
+    width: 100%;
+    height: 35vh;
+}
+.container-text {
+    width: 30%;
+    height: auto;
+}
+.h1-form {
+    color: $primary-text-c;
+}
+.p-form {
+    color: $secondary-text-c;
+}
+.mail-input {
+    margin-top: 2rem;
+    width: 90%;
+    border: 1px solid transparent;
+    background-color: transparent;
+}

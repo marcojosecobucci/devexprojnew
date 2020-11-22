@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "img":"../../img/carouselImg.svg",
+        "nome":"Blumarine",
+        "btnid":1
+    },
+    {
+        "id":2,
+        "img":"../../img/model1.svg",
+        "nome":"Redmarine",
+        "btnid":2
+    },
+    {
+        "id":1,
+        "img":"../../img/model2.svg",
+        "nome":"Yellowmarine",
+        "btnid":3
+    }
+]

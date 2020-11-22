@@ -1,0 +1,19 @@
+.BtnAll {
+    border: 1px solid $primary-color;
+    background-color: $primary-color;
+    color: $white-c;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;  
+    font-weight: 700;
+}
+.BtnAllBGWhite {
+    border: 1px solid $primary-color;
+    background-color: white;
+    color: $primary-color;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;  
+    font-weight: 700;
+}
+.BtnAllBGWhite:hover {
+    cursor: pointer;
+}

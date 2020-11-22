@@ -1,0 +1,58 @@
+.container-carousel {
+    width: 100%;
+    height: 110vh;
+}
+.circle {
+    width: 70%;
+    height: 110vh;
+    position: absolute;
+    margin-left: 50%;
+    background-color: $bg-azure;
+    border-radius: 50%;
+}
+.img-carousel {
+    margin-left: 35%;
+    margin-top: 2rem;
+    max-height: 27rem;
+    z-index: 9;
+    position: absolute;
+}
+.text-carousel {
+    width: 60%;
+    padding-top: 5rem;
+    height: 25rem;
+    margin-top: 4rem;
+    z-index: 99;
+    position: absolute;
+    margin-left: 2rem;
+}
+.h1-carousel {
+    font-weight: bolder;
+    font-size: 4rem;
+    color: $primary-text-c;
+}
+.p-carousel {
+    color: $secondary-text-c;
+}
+.detail-agency-carousel {
+    text-align: right;
+    width: auto;
+    height: auto;
+    margin: 0 31%;
+    z-index: 999;
+    position: absolute;
+    color: $list-c;
+}
+.btn-container {
+    margin-left: 45%;
+    margin-bottom: 5rem;
+}
+.btn-carousel {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: $primary-color;
+    display: inline;
+    border: 1px solid transparent;
+    margin-left: 1rem;
+}
